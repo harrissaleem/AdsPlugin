@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6766124413878054804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6766124413878054806}
+  - component: {fileID: 6766124413878054807}
+  m_Layer: 0
+  m_Name: AdsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6766124413878054806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766124413878054804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6766124413878054807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766124413878054804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1317ae85fe400c4468dd4f182f153cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unityAdsSetting: {fileID: 11400000, guid: 032b3f02ae88de740aa4bfa57a2396dc, type: 2}
+  adTypes:
+    showbanner: 1
+    showInterstatial: 1
+    showRewarded: 1
+  inTestMode: 1
+  Admob_Android_AdIds:
+    AppOpenId: 
+    BannerId: 
+    InterstitialId: 
+    RewardedId: 
+    RewardedInterstitialId: 
+  Admob_iOS_AdIds:
+    AppOpenId: 
+    BannerId: 
+    InterstitialId: 
+    RewardedId: 
+    RewardedInterstitialId: 
+  Unity_Android_AdIds:
+    AppOpenId: 
+    BannerId: Banner_Android
+    InterstitialId: Interstitial_Android
+    RewardedId: Rewarded_Android
+    RewardedInterstitialId: Rewarded_Android
+  Unity_iOS_AdIds:
+    AppOpenId: 
+    BannerId: Banner_iOS
+    InterstitialId: Interstitial_iOS
+    RewardedId: Rewarded_iOS
+    RewardedInterstitialId: Rewarded_iOS
+  Test_Android_AdIds:
+    AppOpenId: ca-app-pub-3940256099942544/3419835294
+    BannerId: ca-app-pub-3940256099942544/6300978111
+    InterstitialId: ca-app-pub-3940256099942544/1033173712
+    RewardedId: ca-app-pub-3940256099942544/5224354917
+    RewardedInterstitialId: ca-app-pub-3940256099942544/5354046379
+  Test_iOS_AdIds:
+    AppOpenId: ca-app-pub-3940256099942544/5662855259
+    BannerId: ca-app-pub-3940256099942544/2934735716
+    InterstitialId: ca-app-pub-3940256099942544/4411468910
+    RewardedId: ca-app-pub-3940256099942544/1712485313
+    RewardedInterstitialId: ca-app-pub-3940256099942544/6978759866
